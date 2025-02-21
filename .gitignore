@@ -1,0 +1,15 @@
+# Ignore data files
+data/*.csv
+data/*.json
+
+# Ignore Jupyter notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore large model files
+models/*.pkl
+models/*.h5
+
